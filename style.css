@@ -1,0 +1,64 @@
+body{
+    background:linear-gradient(135deg,rgb(12, 4, 46),rgb(66, 8, 56));
+    display: flex;
+    justify-content:center;
+    align-items : center;
+    flex-direction:column;
+}
+
+.heading{
+    font-size:21px;
+    /* font-family: 'Source Code Pro', monospace; */
+    background: -webkit-linear-gradient(25deg,rgb(96, 205, 255), rgb(255, 114, 234));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    
+}
+
+.timer{
+    font-family: 'Source Code Pro', monospace;
+    color:beige;
+    font-size: 54px;
+}
+
+.container{
+    width:80%;
+    display: flex;
+    justify-content:center;
+    align-items : center;
+    flex-direction:column;
+}
+
+
+.text{
+    margin:30px 0px 0px 0px;
+    color:bisque;
+    font-size: 25px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.textinput{
+    width:100%;
+    height:140px;
+    margin:40px 0px 0px 0px;
+    font-size:25px;
+}
+
+.fa{
+    color:beige;
+    text-decoration: none;
+    padding:17px;
+}
+  
+.developer{
+    position:absolute;
+    bottom:0;
+    font-size:25px;
+}
+
+.correct{
+    color:rgb(80, 240, 80);
+}
+
+.incorrect{
+    color:red;
+}
